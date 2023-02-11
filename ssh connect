@@ -1,0 +1,4 @@
+go to the path where the key is location in power shell
+cd DOwnloads
+ls *.pem
+ssh -i nameofthekey.pem ec2-user@publicip
