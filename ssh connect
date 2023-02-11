@@ -7,3 +7,6 @@ ssh -i nameofthekey.pem ec2-user@publicip
 sudo -i
 systemctl status httpd
 curl localhost
+#####create our custom page
+cd /var/www/html
+echo "this is an custom page" > index.html
