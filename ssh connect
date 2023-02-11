@@ -10,3 +10,10 @@ curl localhost
 #####create our custom page
 cd /var/www/html
 echo "this is an custom page" > index.html
+
+####how to host my own site
+ 3  cd /var/www/html
+
+    7  wget https://www.free-css.com/assets/files/free-css-templates/download/page288/global.zip
+    8  ls
+   11  unzip global.zip
