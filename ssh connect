@@ -2,3 +2,8 @@ go to the path where the key is location in power shell
 cd DOwnloads
 ls *.pem
 ssh -i nameofthekey.pem ec2-user@publicip
+
+####how to verify that my apache is installed using startup scrip
+sudo -i
+systemctl status httpd
+curl localhost
